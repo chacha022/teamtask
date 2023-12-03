@@ -1,0 +1,27 @@
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\bin\Debug\timer.exe.config
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\bin\Debug\timer.exe
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\bin\Debug\timer.pdb
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\obj\Debug\timer.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\obj\Debug\timer.Form1.resources
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\obj\Debug\timer.Properties.Resources.resources
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\obj\Debug\timer.UserControl1.resources
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\obj\Debug\timer.UserControl2.resources
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\obj\Debug\timer.UserControl3.resources
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\obj\Debug\timer.csproj.GenerateResource.cache
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\obj\Debug\timer.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\obj\Debug\timer.exe
+C:\Users\USER\OneDrive\바탕 화면\시계 기능\timer\timer\obj\Debug\timer.pdb
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\bin\Debug\timer.exe.config
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\bin\Debug\timer.exe
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\bin\Debug\timer.pdb
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.csproj.AssemblyReference.cache
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.Form1.resources
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.Properties.Resources.resources
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.UserControl1.resources
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.UserControl2.resources
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.UserControl3.resources
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.csproj.GenerateResource.cache
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.csproj.CoreCompileInputs.cache
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.exe
+C:\Users\user\바탕 화면\2023_11_01_test\timer\timer\obj\Debug\timer.pdb
