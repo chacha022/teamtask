@@ -10,3 +10,7 @@ C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.csproj.Ge
 C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.csproj.CoreCompileInputs.cache
 C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.exe
 C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.pdb
+C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.Form3.resources
+C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.UserControl1.resources
+C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.UserControl2.resources
+C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.UserControl3.resources

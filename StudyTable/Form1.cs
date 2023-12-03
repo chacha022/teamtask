@@ -228,5 +228,11 @@ namespace StudyTable
                 calcul.Image = imageListCalculator.Images[0];
             }
         }
+
+        private void watch_Click(object sender, EventArgs e)
+        {
+            Form3 _Form = new Form3();
+            _Form.ShowDialog();
+        }
     }
 }

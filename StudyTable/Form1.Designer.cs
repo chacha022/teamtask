@@ -32,6 +32,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.game2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Themalabel = new System.Windows.Forms.Label();
+            this.apply = new System.Windows.Forms.Button();
+            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
             this.Colorlabel = new System.Windows.Forms.Label();
             this.Fontlabel = new System.Windows.Forms.Label();
             this.FontChange = new System.Windows.Forms.Button();
@@ -43,23 +46,20 @@
             this.wku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.calender = new System.Windows.Forms.Button();
+            this.imageListCalendar = new System.Windows.Forms.ImageList(this.components);
             this.calcul = new System.Windows.Forms.Button();
+            this.imageListCalculator = new System.Windows.Forms.ImageList(this.components);
             this.game1 = new System.Windows.Forms.Button();
             this.memo = new System.Windows.Forms.Button();
+            this.imageListMemo = new System.Windows.Forms.ImageList(this.components);
             this.watch = new System.Windows.Forms.Button();
+            this.imageListWatch = new System.Windows.Forms.ImageList(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.BackColorlabel = new System.Windows.Forms.Label();
             this.logout = new System.Windows.Forms.Button();
             this.close = new System.Windows.Forms.Button();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.apply = new System.Windows.Forms.Button();
-            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
-            this.Themalabel = new System.Windows.Forms.Label();
-            this.imageListWatch = new System.Windows.Forms.ImageList(this.components);
-            this.imageListCalendar = new System.Windows.Forms.ImageList(this.components);
-            this.imageListMemo = new System.Windows.Forms.ImageList(this.components);
-            this.imageListCalculator = new System.Windows.Forms.ImageList(this.components);
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -91,6 +91,42 @@
             this.groupBox2.TabIndex = 51;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "폼 변경";
+            // 
+            // Themalabel
+            // 
+            this.Themalabel.AutoSize = true;
+            this.Themalabel.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Themalabel.Location = new System.Drawing.Point(24, 119);
+            this.Themalabel.Name = "Themalabel";
+            this.Themalabel.Size = new System.Drawing.Size(66, 16);
+            this.Themalabel.TabIndex = 15;
+            this.Themalabel.Text = "Thema :";
+            // 
+            // apply
+            // 
+            this.apply.FlatAppearance.BorderSize = 0;
+            this.apply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.apply.Location = new System.Drawing.Point(214, 112);
+            this.apply.Name = "apply";
+            this.apply.Size = new System.Drawing.Size(30, 30);
+            this.apply.TabIndex = 14;
+            this.apply.Text = "▣";
+            this.apply.UseVisualStyleBackColor = true;
+            this.apply.Click += new System.EventHandler(this.apply_Click);
+            // 
+            // domainUpDown1
+            // 
+            this.domainUpDown1.Items.Add("RED");
+            this.domainUpDown1.Items.Add("BLUE");
+            this.domainUpDown1.Items.Add("YELLOW");
+            this.domainUpDown1.Items.Add("ORIGINAL");
+            this.domainUpDown1.Location = new System.Drawing.Point(114, 114);
+            this.domainUpDown1.Name = "domainUpDown1";
+            this.domainUpDown1.ReadOnly = true;
+            this.domainUpDown1.Size = new System.Drawing.Size(94, 26);
+            this.domainUpDown1.TabIndex = 13;
+            this.domainUpDown1.Text = "테마 변경";
+            this.domainUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Colorlabel
             // 
@@ -221,6 +257,15 @@
             this.calender.TabIndex = 48;
             this.calender.UseVisualStyleBackColor = true;
             // 
+            // imageListCalendar
+            // 
+            this.imageListCalendar.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListCalendar.ImageStream")));
+            this.imageListCalendar.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageListCalendar.Images.SetKeyName(0, "O_calend.png");
+            this.imageListCalendar.Images.SetKeyName(1, "R_calend.png");
+            this.imageListCalendar.Images.SetKeyName(2, "B_calend.png");
+            this.imageListCalendar.Images.SetKeyName(3, "Y_calend.png");
+            // 
             // calcul
             // 
             this.calcul.FlatAppearance.BorderSize = 0;
@@ -231,6 +276,15 @@
             this.calcul.Size = new System.Drawing.Size(120, 120);
             this.calcul.TabIndex = 47;
             this.calcul.UseVisualStyleBackColor = true;
+            // 
+            // imageListCalculator
+            // 
+            this.imageListCalculator.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListCalculator.ImageStream")));
+            this.imageListCalculator.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageListCalculator.Images.SetKeyName(0, "O_calcul.png");
+            this.imageListCalculator.Images.SetKeyName(1, "R_calcul.png");
+            this.imageListCalculator.Images.SetKeyName(2, "B_calcul.png");
+            this.imageListCalculator.Images.SetKeyName(3, "Y_calcul.png");
             // 
             // game1
             // 
@@ -254,6 +308,15 @@
             this.memo.TabIndex = 44;
             this.memo.UseVisualStyleBackColor = true;
             // 
+            // imageListMemo
+            // 
+            this.imageListMemo.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListMemo.ImageStream")));
+            this.imageListMemo.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageListMemo.Images.SetKeyName(0, "O_memo.png");
+            this.imageListMemo.Images.SetKeyName(1, "R_memo.png");
+            this.imageListMemo.Images.SetKeyName(2, "B_memo.png");
+            this.imageListMemo.Images.SetKeyName(3, "Y_memo.png");
+            // 
             // watch
             // 
             this.watch.FlatAppearance.BorderSize = 0;
@@ -264,6 +327,16 @@
             this.watch.Size = new System.Drawing.Size(120, 120);
             this.watch.TabIndex = 43;
             this.watch.UseVisualStyleBackColor = true;
+            this.watch.Click += new System.EventHandler(this.watch_Click);
+            // 
+            // imageListWatch
+            // 
+            this.imageListWatch.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListWatch.ImageStream")));
+            this.imageListWatch.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageListWatch.Images.SetKeyName(0, "O_watch.png");
+            this.imageListWatch.Images.SetKeyName(1, "R_watch.png");
+            this.imageListWatch.Images.SetKeyName(2, "B_watch.png");
+            this.imageListWatch.Images.SetKeyName(3, "Y_watch.png");
             // 
             // label3
             // 
@@ -309,78 +382,6 @@
             this.close.TabIndex = 56;
             this.close.UseVisualStyleBackColor = true;
             this.close.Click += new System.EventHandler(this.close_Click);
-            // 
-            // apply
-            // 
-            this.apply.FlatAppearance.BorderSize = 0;
-            this.apply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.apply.Location = new System.Drawing.Point(214, 112);
-            this.apply.Name = "apply";
-            this.apply.Size = new System.Drawing.Size(30, 30);
-            this.apply.TabIndex = 14;
-            this.apply.Text = "▣";
-            this.apply.UseVisualStyleBackColor = true;
-            this.apply.Click += new System.EventHandler(this.apply_Click);
-            // 
-            // domainUpDown1
-            // 
-            this.domainUpDown1.Items.Add("RED");
-            this.domainUpDown1.Items.Add("BLUE");
-            this.domainUpDown1.Items.Add("YELLOW");
-            this.domainUpDown1.Items.Add("ORIGINAL");
-            this.domainUpDown1.Location = new System.Drawing.Point(114, 114);
-            this.domainUpDown1.Name = "domainUpDown1";
-            this.domainUpDown1.ReadOnly = true;
-            this.domainUpDown1.Size = new System.Drawing.Size(94, 26);
-            this.domainUpDown1.TabIndex = 13;
-            this.domainUpDown1.Text = "테마 변경";
-            this.domainUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Themalabel
-            // 
-            this.Themalabel.AutoSize = true;
-            this.Themalabel.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.Themalabel.Location = new System.Drawing.Point(24, 119);
-            this.Themalabel.Name = "Themalabel";
-            this.Themalabel.Size = new System.Drawing.Size(66, 16);
-            this.Themalabel.TabIndex = 15;
-            this.Themalabel.Text = "Thema :";
-            // 
-            // imageListWatch
-            // 
-            this.imageListWatch.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListWatch.ImageStream")));
-            this.imageListWatch.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageListWatch.Images.SetKeyName(0, "O_watch.png");
-            this.imageListWatch.Images.SetKeyName(1, "R_watch.png");
-            this.imageListWatch.Images.SetKeyName(2, "B_watch.png");
-            this.imageListWatch.Images.SetKeyName(3, "Y_watch.png");
-            // 
-            // imageListCalendar
-            // 
-            this.imageListCalendar.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListCalendar.ImageStream")));
-            this.imageListCalendar.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageListCalendar.Images.SetKeyName(0, "O_calend.png");
-            this.imageListCalendar.Images.SetKeyName(1, "R_calend.png");
-            this.imageListCalendar.Images.SetKeyName(2, "B_calend.png");
-            this.imageListCalendar.Images.SetKeyName(3, "Y_calend.png");
-            // 
-            // imageListMemo
-            // 
-            this.imageListMemo.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListMemo.ImageStream")));
-            this.imageListMemo.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageListMemo.Images.SetKeyName(0, "O_memo.png");
-            this.imageListMemo.Images.SetKeyName(1, "R_memo.png");
-            this.imageListMemo.Images.SetKeyName(2, "B_memo.png");
-            this.imageListMemo.Images.SetKeyName(3, "Y_memo.png");
-            // 
-            // imageListCalculator
-            // 
-            this.imageListCalculator.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListCalculator.ImageStream")));
-            this.imageListCalculator.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageListCalculator.Images.SetKeyName(0, "O_calcul.png");
-            this.imageListCalculator.Images.SetKeyName(1, "R_calcul.png");
-            this.imageListCalculator.Images.SetKeyName(2, "B_calcul.png");
-            this.imageListCalculator.Images.SetKeyName(3, "Y_calcul.png");
             // 
             // Form1
             // 
