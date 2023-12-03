@@ -34,7 +34,7 @@ namespace StudyTable
 
             watch.Image = imageListWatch.Images[0];
             memo.Image = imageListMemo.Images[0];
-            calender.Image = imageListCalendar.Images[0];
+            calendar.Image = imageListCalendar.Images[0];
             calcul.Image = imageListCalculator.Images[0];
         }
     
@@ -123,7 +123,7 @@ namespace StudyTable
 
             watch.BackColor = color;
             calcul.BackColor = color;
-            calender.BackColor = color;
+            calendar.BackColor = color;
             memo.BackColor = color;
 
             domainUpDown1.BackColor = color;
@@ -148,7 +148,7 @@ namespace StudyTable
 
                 watch.Image = imageListWatch.Images[1];
                 memo.Image = imageListMemo.Images[1];
-                calender.Image = imageListCalendar.Images[1];
+                calendar.Image = imageListCalendar.Images[1];
                 calcul.Image = imageListCalculator.Images[1];
             }
             else if (domainUpDown1.SelectedItem == "BLUE")
@@ -158,7 +158,7 @@ namespace StudyTable
 
                 watch.Image = imageListWatch.Images[2];
                 memo.Image = imageListMemo.Images[2];
-                calender.Image = imageListCalendar.Images[2];
+                calendar.Image = imageListCalendar.Images[2];
                 calcul.Image = imageListCalculator.Images[2];
             }
             else if (domainUpDown1.SelectedItem == "YELLOW")
@@ -168,7 +168,7 @@ namespace StudyTable
 
                 watch.Image = imageListWatch.Images[3];
                 memo.Image = imageListMemo.Images[3];
-                calender.Image = imageListCalendar.Images[3];
+                calendar.Image = imageListCalendar.Images[3];
                 calcul.Image = imageListCalculator.Images[3];
             }
             else
@@ -178,7 +178,7 @@ namespace StudyTable
 
                 watch.Image = imageListWatch.Images[0];
                 memo.Image = imageListMemo.Images[0];
-                calender.Image = imageListCalendar.Images[0];
+                calendar.Image = imageListCalendar.Images[0];
                 calcul.Image = imageListCalculator.Images[0];
             }
         }
@@ -186,6 +186,12 @@ namespace StudyTable
         private void watch_Click(object sender, EventArgs e)
         {
             Form3 _Form = new Form3();
+            _Form.ShowDialog();
+        }
+
+        private void calendar_Click(object sender, EventArgs e)
+        {
+            Form4 _Form = new Form4();
             _Form.ShowDialog();
         }
     }

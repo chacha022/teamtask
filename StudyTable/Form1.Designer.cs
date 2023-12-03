@@ -45,7 +45,7 @@
             this.waffle = new System.Windows.Forms.Button();
             this.wku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.calender = new System.Windows.Forms.Button();
+            this.calendar = new System.Windows.Forms.Button();
             this.imageListCalendar = new System.Windows.Forms.ImageList(this.components);
             this.calcul = new System.Windows.Forms.Button();
             this.imageListCalculator = new System.Windows.Forms.ImageList(this.components);
@@ -246,16 +246,17 @@
             this.label1.TabIndex = 49;
             this.label1.Text = "Study Desk";
             // 
-            // calender
+            // calendar
             // 
-            this.calender.FlatAppearance.BorderSize = 0;
-            this.calender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.calender.ImageList = this.imageListCalendar;
-            this.calender.Location = new System.Drawing.Point(103, 253);
-            this.calender.Name = "calender";
-            this.calender.Size = new System.Drawing.Size(120, 120);
-            this.calender.TabIndex = 48;
-            this.calender.UseVisualStyleBackColor = true;
+            this.calendar.FlatAppearance.BorderSize = 0;
+            this.calendar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.calendar.ImageList = this.imageListCalendar;
+            this.calendar.Location = new System.Drawing.Point(103, 253);
+            this.calendar.Name = "calendar";
+            this.calendar.Size = new System.Drawing.Size(120, 120);
+            this.calendar.TabIndex = 48;
+            this.calendar.UseVisualStyleBackColor = true;
+            this.calendar.Click += new System.EventHandler(this.calendar_Click);
             // 
             // imageListCalendar
             // 
@@ -393,7 +394,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.calender);
+            this.Controls.Add(this.calendar);
             this.Controls.Add(this.calcul);
             this.Controls.Add(this.game1);
             this.Controls.Add(this.logout);
@@ -425,7 +426,7 @@
         private System.Windows.Forms.Button waffle;
         private System.Windows.Forms.Button wku;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button calender;
+        private System.Windows.Forms.Button calendar;
         private System.Windows.Forms.Button calcul;
         private System.Windows.Forms.Button game1;
         private System.Windows.Forms.Button memo;

@@ -14,3 +14,4 @@ C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.Form3.res
 C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.UserControl1.resources
 C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.UserControl2.resources
 C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.UserControl3.resources
+C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.Form4.resources
