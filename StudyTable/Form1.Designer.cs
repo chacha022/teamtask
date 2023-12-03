@@ -173,6 +173,7 @@
             this.naver.Size = new System.Drawing.Size(100, 100);
             this.naver.TabIndex = 9;
             this.naver.UseVisualStyleBackColor = true;
+            this.naver.Click += new System.EventHandler(this.naver_Click);
             // 
             // google
             // 
@@ -184,6 +185,7 @@
             this.google.Size = new System.Drawing.Size(100, 100);
             this.google.TabIndex = 10;
             this.google.UseVisualStyleBackColor = true;
+            this.google.Click += new System.EventHandler(this.google_Click);
             // 
             // waffle
             // 
@@ -195,6 +197,7 @@
             this.waffle.Size = new System.Drawing.Size(100, 100);
             this.waffle.TabIndex = 11;
             this.waffle.UseVisualStyleBackColor = true;
+            this.waffle.Click += new System.EventHandler(this.waffle_Click);
             // 
             // wku
             // 
@@ -206,6 +209,7 @@
             this.wku.Size = new System.Drawing.Size(100, 100);
             this.wku.TabIndex = 12;
             this.wku.UseVisualStyleBackColor = true;
+            this.wku.Click += new System.EventHandler(this.wku_Click);
             // 
             // label1
             // 
@@ -261,6 +265,7 @@
             this.logout.TabIndex = 45;
             this.logout.Text = "로그아웃";
             this.logout.UseVisualStyleBackColor = true;
+            this.logout.Click += new System.EventHandler(this.logout_Click);
             // 
             // memo
             // 
@@ -333,6 +338,7 @@
             this.Controls.Add(this.BackColorlabel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
