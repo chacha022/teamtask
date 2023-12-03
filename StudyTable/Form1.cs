@@ -106,22 +106,36 @@ namespace StudyTable
             }
         }
 
+        Color RED = Color.LightPink;
+        Color BLUE = Color.LightSkyBlue;
+        Color YELLOW = Color.LightYellow;
+        Color ORIGIN = SystemColors.Control;
+
+        public void BackColor(Color color)
+        {
+            BackColorlabel.BackColor = color;
+            label1.BackColor = color;
+            label3.BackColor = color;
+            groupBox1.BackColor = color;
+            groupBox2.BackColor = color;
+            close.BackColor = color;
+            logout.BackColor = color;
+
+            watch.BackColor = color;
+            calcul.BackColor = color;
+            calender.BackColor = color;
+            memo.BackColor = color;
+
+            domainUpDown1.BackColor = color;
+            game1.BackColor = color;
+            game2.BackColor = color;
+        }
+
         private void BackgroundChange_Click(object sender, EventArgs e)
         {
             if (colorDialog1.ShowDialog() == DialogResult.OK)                      //변수를 통하여 해당 변수의 값이 확인버튼일 때만 색상 변경
             {
-                BackColorlabel.BackColor = colorDialog1.Color;
-                label1.BackColor = colorDialog1.Color;
-                label3.BackColor = colorDialog1.Color;
-                groupBox1.BackColor = colorDialog1.Color;
-                groupBox2.BackColor = colorDialog1.Color;
-                close.BackColor = colorDialog1.Color;
-                logout.BackColor = colorDialog1.Color;
-                watch.BackColor = colorDialog1.Color;
-                calcul.BackColor = colorDialog1.Color;
-                calender.BackColor = colorDialog1.Color;
-                memo.BackColor = colorDialog1.Color;
-                domainUpDown1.BackColor = colorDialog1.Color;
+                BackColor(colorDialog1.Color);
             }
         }
 
@@ -129,23 +143,8 @@ namespace StudyTable
         {
             if (domainUpDown1.SelectedItem == "RED")
             {
-                BackColorlabel.BackColor = Color.LightPink; 
+                BackColor(RED);
                 label1.ForeColor = Color.Crimson;
-
-                label1.BackColor = Color.LightPink;
-                label3.BackColor = Color.LightPink;
-                groupBox1.BackColor = Color.LightPink;
-                groupBox2.BackColor = Color.LightPink;
-                close.BackColor = Color.LightPink;
-                logout.BackColor = Color.LightPink;
-                domainUpDown1.BackColor = Color.LightPink;
-                game1.BackColor = Color.LightPink;
-                game2.BackColor = Color.LightPink;
-
-                watch.BackColor = Color.LightPink;
-                calcul.BackColor = Color.LightPink;
-                calender.BackColor = Color.LightPink;
-                memo.BackColor = Color.LightPink;
 
                 watch.Image = imageListWatch.Images[1];
                 memo.Image = imageListMemo.Images[1];
@@ -154,23 +153,8 @@ namespace StudyTable
             }
             else if (domainUpDown1.SelectedItem == "BLUE")
             {
-                BackColorlabel.BackColor = Color.LightSkyBlue;
-                label1.ForeColor = Color.DarkBlue;
-
-                label1.BackColor = Color.LightSkyBlue;
-                label3.BackColor = Color.LightSkyBlue;
-                groupBox1.BackColor = Color.LightSkyBlue;
-                groupBox2.BackColor = Color.LightSkyBlue;
-                close.BackColor = Color.LightSkyBlue;
-                logout.BackColor = Color.LightSkyBlue;
-                domainUpDown1.BackColor = Color.LightSkyBlue;
-                game1.BackColor = Color.LightSkyBlue;
-                game2.BackColor = Color.LightSkyBlue;
-
-                watch.BackColor = Color.LightSkyBlue;
-                calcul.BackColor = Color.LightSkyBlue;
-                calender.BackColor = Color.LightSkyBlue;
-                memo.BackColor = Color.LightSkyBlue;
+                BackColor(BLUE);
+                label1.ForeColor = Color.Blue;
 
                 watch.Image = imageListWatch.Images[2];
                 memo.Image = imageListMemo.Images[2];
@@ -179,23 +163,8 @@ namespace StudyTable
             }
             else if (domainUpDown1.SelectedItem == "YELLOW")
             {
-                BackColorlabel.BackColor = Color.LightYellow;
+                BackColor(YELLOW);
                 label1.ForeColor = Color.DarkGoldenrod;
-
-                label1.BackColor = Color.LightYellow;
-                label3.BackColor = Color.LightYellow;
-                groupBox1.BackColor = Color.LightYellow;
-                groupBox2.BackColor = Color.LightYellow;
-                close.BackColor = Color.LightYellow;
-                logout.BackColor = Color.LightYellow;
-                domainUpDown1.BackColor = Color.LightYellow;
-                game1.BackColor = Color.LightYellow;
-                game2.BackColor = Color.LightYellow;
-
-                watch.BackColor = Color.LightYellow;
-                calcul.BackColor = Color.LightYellow;
-                calender.BackColor = Color.LightYellow;
-                memo.BackColor = Color.LightYellow;
 
                 watch.Image = imageListWatch.Images[3];
                 memo.Image = imageListMemo.Images[3];
@@ -204,23 +173,8 @@ namespace StudyTable
             }
             else
             {
-                BackColorlabel.BackColor = SystemColors.Control;
+                BackColor(ORIGIN);
                 label1.ForeColor = Color.Black;
-
-                label1.BackColor = SystemColors.Control;
-                label3.BackColor = SystemColors.Control;
-                groupBox1.BackColor = SystemColors.Control;
-                groupBox2.BackColor = SystemColors.Control;
-                close.BackColor = SystemColors.Control;
-                logout.BackColor = SystemColors.Control;
-                domainUpDown1.BackColor = SystemColors.Control;
-                game1.BackColor = SystemColors.Control;
-                game2.BackColor = SystemColors.Control;
-
-                watch.BackColor = SystemColors.Control;
-                calcul.BackColor = SystemColors.Control;
-                calender.BackColor = SystemColors.Control;
-                memo.BackColor = SystemColors.Control;
 
                 watch.Image = imageListWatch.Images[0];
                 memo.Image = imageListMemo.Images[0];
