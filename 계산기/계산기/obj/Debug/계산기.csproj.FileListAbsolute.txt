@@ -1,0 +1,22 @@
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\bin\Debug\계산기.exe.config
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\bin\Debug\계산기.exe
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\bin\Debug\계산기.pdb
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\obj\Debug\계산기.csproj.AssemblyReference.cache
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\obj\Debug\계산기.csproj.SuggestedBindingRedirects.cache
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\obj\Debug\계산기.Form1.resources
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\obj\Debug\계산기.Properties.Resources.resources
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\obj\Debug\계산기.csproj.GenerateResource.cache
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\obj\Debug\계산기.csproj.CoreCompileInputs.cache
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\obj\Debug\계산기.exe
+C:\Users\wwkdr\OneDrive\바탕 화면\윈도우 프로그래밍\계산기\계산기\obj\Debug\계산기.pdb
+C:\Users\user\바탕 화면\계산기\계산기\bin\Debug\계산기.exe.config
+C:\Users\user\바탕 화면\계산기\계산기\bin\Debug\계산기.exe
+C:\Users\user\바탕 화면\계산기\계산기\bin\Debug\계산기.pdb
+C:\Users\user\바탕 화면\계산기\계산기\obj\Debug\계산기.csproj.AssemblyReference.cache
+C:\Users\user\바탕 화면\계산기\계산기\obj\Debug\계산기.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\바탕 화면\계산기\계산기\obj\Debug\계산기.Form1.resources
+C:\Users\user\바탕 화면\계산기\계산기\obj\Debug\계산기.Properties.Resources.resources
+C:\Users\user\바탕 화면\계산기\계산기\obj\Debug\계산기.csproj.GenerateResource.cache
+C:\Users\user\바탕 화면\계산기\계산기\obj\Debug\계산기.csproj.CoreCompileInputs.cache
+C:\Users\user\바탕 화면\계산기\계산기\obj\Debug\계산기.exe
+C:\Users\user\바탕 화면\계산기\계산기\obj\Debug\계산기.pdb
