@@ -277,6 +277,7 @@
             this.calcul.Size = new System.Drawing.Size(120, 120);
             this.calcul.TabIndex = 47;
             this.calcul.UseVisualStyleBackColor = true;
+            this.calcul.Click += new System.EventHandler(this.calcul_Click);
             // 
             // imageListCalculator
             // 

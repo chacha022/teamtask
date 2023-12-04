@@ -194,5 +194,11 @@ namespace StudyTable
             Form4 _Form = new Form4();
             _Form.ShowDialog();
         }
+
+        private void calcul_Click(object sender, EventArgs e)
+        {
+            Form5 _Form = new Form5();
+            _Form.ShowDialog();
+        }
     }
 }
