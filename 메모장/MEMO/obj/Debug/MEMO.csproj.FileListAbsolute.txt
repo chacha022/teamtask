@@ -1,0 +1,10 @@
+C:\Users\ok\Desktop\윈프\강태민20202652\MEMO\bin\Debug\MEMO.exe.config
+C:\Users\ok\Desktop\윈프\강태민20202652\MEMO\bin\Debug\MEMO.exe
+C:\Users\ok\Desktop\윈프\강태민20202652\MEMO\bin\Debug\MEMO.pdb
+C:\Users\ok\Desktop\윈프\강태민20202652\MEMO\obj\Debug\MEMO.csproj.AssemblyReference.cache
+C:\Users\ok\Desktop\윈프\강태민20202652\MEMO\obj\Debug\MEMO.Form1.resources
+C:\Users\ok\Desktop\윈프\강태민20202652\MEMO\obj\Debug\MEMO.Properties.Resources.resources
+C:\Users\ok\Desktop\윈프\강태민20202652\MEMO\obj\Debug\MEMO.csproj.GenerateResource.cache
+C:\Users\ok\Desktop\윈프\강태민20202652\MEMO\obj\Debug\MEMO.csproj.CoreCompileInputs.cache
+C:\Users\ok\Desktop\윈프\강태민20202652\MEMO\obj\Debug\MEMO.exe
+C:\Users\ok\Desktop\윈프\강태민20202652\MEMO\obj\Debug\MEMO.pdb
