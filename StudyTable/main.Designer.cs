@@ -74,6 +74,7 @@
             this.game2.TabIndex = 53;
             this.game2.Text = "게임";
             this.game2.UseVisualStyleBackColor = true;
+            this.game2.Click += new System.EventHandler(this.game2_Click);
             // 
             // groupBox2
             // 
@@ -298,6 +299,7 @@
             this.game1.TabIndex = 46;
             this.game1.Text = "게임";
             this.game1.UseVisualStyleBackColor = true;
+            this.game1.Click += new System.EventHandler(this.game1_Click);
             // 
             // memo
             // 

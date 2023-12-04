@@ -203,7 +203,20 @@ namespace StudyTable
 
         private void memo_Click(object sender, EventArgs e)
         {
+            memo _Form = new memo();
+            _Form.ShowDialog();
+        }
 
+        private void game1_Click(object sender, EventArgs e)
+        {
+            game11 _Form = new game11();
+            _Form.ShowDialog();
+        }
+
+        private void game2_Click(object sender, EventArgs e)
+        {
+            game22 _Form = new game22();
+            _Form.ShowDialog();
         }
     }
 }
