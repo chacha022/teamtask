@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StudyTable
 {
-    public partial class Form4 : Form
+    public partial class calendar : Form
     {
-        public Form4()
+        public calendar()
         {
             InitializeComponent();
         }

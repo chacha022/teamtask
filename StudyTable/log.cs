@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace StudyTable
 {
-    public partial class Form2 : Form
+    public partial class log : Form
     {
-        private Form1 _Form1;
-        public Form2(Form1 form1)
+        private main _Form1;
+        public log(main form1)
         {
             InitializeComponent();
             _Form1 = form1;

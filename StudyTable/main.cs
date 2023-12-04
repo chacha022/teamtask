@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StudyTable
 {
-    public partial class Form1 : Form
+    public partial class main : Form
     {
         private Boolean m_blLoginCheck = false;
 
@@ -21,14 +21,14 @@ namespace StudyTable
             set { m_blLoginCheck = value; }
         }
 
-        public Form1()
+        public main()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Form2 _Form2 = new Form2(this);
+            log _Form2 = new log(this);
             _Form2.ShowDialog();
             if (!m_blLoginCheck) this.Close();
 
@@ -63,7 +63,7 @@ namespace StudyTable
         {
             MessageBox.Show("         로그아웃하였습니다.\n     로그인화면으로 전환합니다.");
 
-            Form2 _Form2 = new Form2(this);
+            log _Form2 = new log(this);
             _Form2.ShowDialog();
         }
 
@@ -185,19 +185,19 @@ namespace StudyTable
 
         private void watch_Click(object sender, EventArgs e)
         {
-            Form3 _Form = new Form3();
+            timer _Form = new timer();
             _Form.ShowDialog();
         }
 
         private void calendar_Click(object sender, EventArgs e)
         {
-            Form4 _Form = new Form4();
+            calendar _Form = new calendar();
             _Form.ShowDialog();
         }
 
         private void calcul_Click(object sender, EventArgs e)
         {
-            Form5 _Form = new Form5();
+            calculator _Form = new calculator();
             _Form.ShowDialog();
         }
     }

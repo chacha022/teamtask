@@ -1,6 +1,6 @@
 ﻿namespace StudyTable
 {
-    partial class Form3
+    partial class timer
     {
         /// <summary>
         /// Required designer variable.
@@ -112,7 +112,7 @@
             this.userControl31.Size = new System.Drawing.Size(324, 120);
             this.userControl31.TabIndex = 4;
             // 
-            // Form3
+            // timer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -121,8 +121,8 @@
             this.Controls.Add(this.userControl21);
             this.Controls.Add(this.userControl11);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Name = "timer";
+            this.Text = "Timer 시계";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

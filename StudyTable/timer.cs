@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StudyTable
 {
-    public partial class Form3 : Form
+    public partial class timer : Form
     {
-        public Form3()
+        public timer()
         {
             InitializeComponent();
         }

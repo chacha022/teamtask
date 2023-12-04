@@ -1,6 +1,6 @@
 ﻿namespace StudyTable
 {
-    partial class Form2
+    partial class log
     {
         /// <summary>
         /// Required designer variable.
@@ -83,7 +83,7 @@
             this.login.UseVisualStyleBackColor = true;
             this.login.Click += new System.EventHandler(this.login_Click);
             // 
-            // Form2
+            // log
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -93,8 +93,8 @@
             this.Controls.Add(this.PWTextBox);
             this.Controls.Add(this.IDTextBox);
             this.Controls.Add(this.login);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "log";
+            this.Text = "로그인화면";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

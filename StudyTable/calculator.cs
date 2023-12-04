@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace StudyTable
 {
-    public partial class Form5 : Form
+    public partial class calculator : Form
     {
 
         enum Operators
@@ -41,7 +41,7 @@ namespace StudyTable
         bool clear = true;
         NumberBase currentBase = NumberBase.Decimal;
 
-        public Form5()
+        public calculator()
         {
             InitializeComponent();
             Display.TextChanged += Display_TextChanged;

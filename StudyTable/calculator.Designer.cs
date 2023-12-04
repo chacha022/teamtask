@@ -1,6 +1,6 @@
 ﻿namespace StudyTable
 {
-    partial class Form5
+    partial class calculator
     {
         /// <summary>
         /// Required designer variable.
@@ -521,7 +521,7 @@
             this.Display.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Display.TextChanged += new System.EventHandler(this.Display_TextChanged);
             // 
-            // Form5
+            // calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -531,8 +531,8 @@
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.Display);
-            this.Name = "Form5";
-            this.Text = "Form5";
+            this.Name = "calculator";
+            this.Text = "Calculator 계산기";
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);

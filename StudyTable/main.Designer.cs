@@ -1,6 +1,6 @@
 ﻿namespace StudyTable
 {
-    partial class Form1
+    partial class main
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
             this.game2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Themalabel = new System.Windows.Forms.Label();
@@ -385,7 +385,7 @@
             this.close.UseVisualStyleBackColor = true;
             this.close.Click += new System.EventHandler(this.close_Click);
             // 
-            // Form1
+            // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -403,8 +403,8 @@
             this.Controls.Add(this.watch);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.BackColorlabel);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "main";
+            this.Text = "메인화면";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
