@@ -16,3 +16,4 @@ C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.log.resou
 C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.timer.resources
 C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.calendar.resources
 C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.calculator.resources
+C:\Users\user\바탕 화면\StudyTable\StudyTable\obj\Debug\StudyTable.memo.resources

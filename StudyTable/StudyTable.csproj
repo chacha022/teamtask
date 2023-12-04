@@ -58,6 +58,12 @@
     <Compile Include="log.Designer.cs">
       <DependentUpon>log.cs</DependentUpon>
     </Compile>
+    <Compile Include="memo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memo.Designer.cs">
+      <DependentUpon>memo.cs</DependentUpon>
+    </Compile>
     <Compile Include="timer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="log.resx">
       <DependentUpon>log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memo.resx">
+      <DependentUpon>memo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="timer.resx">
       <DependentUpon>timer.cs</DependentUpon>

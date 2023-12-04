@@ -200,5 +200,10 @@ namespace StudyTable
             calculator _Form = new calculator();
             _Form.ShowDialog();
         }
+
+        private void memo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

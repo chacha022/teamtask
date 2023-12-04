@@ -309,6 +309,7 @@
             this.memo.Size = new System.Drawing.Size(120, 120);
             this.memo.TabIndex = 44;
             this.memo.UseVisualStyleBackColor = true;
+            this.memo.Click += new System.EventHandler(this.memo_Click);
             // 
             // imageListMemo
             // 
