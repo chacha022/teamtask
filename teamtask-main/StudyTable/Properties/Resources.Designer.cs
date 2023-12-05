@@ -63,6 +63,16 @@ namespace StudyTable.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap 두더지_사진_어둠_ {
+            get {
+                object obj = ResourceManager.GetObject("두더지 사진_어둠_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap 두더지_쪼꼬미 {
             get {
                 object obj = ResourceManager.GetObject("두더지_쪼꼬미", resourceCulture);
@@ -86,6 +96,36 @@ namespace StudyTable.Properties {
         internal static System.Drawing.Bitmap 숲_배경3 {
             get {
                 object obj = ResourceManager.GetObject("숲 배경3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 숲_배경6 {
+            get {
+                object obj = ResourceManager.GetObject("숲 배경6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 숲_배경의_뚜뚜 {
+            get {
+                object obj = ResourceManager.GetObject("숲 배경의 뚜뚜", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 어둔_숲_배경의_뚜뚜6 {
+            get {
+                object obj = ResourceManager.GetObject("어둔 숲 배경의 뚜뚜6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

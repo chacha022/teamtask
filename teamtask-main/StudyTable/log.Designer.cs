@@ -61,6 +61,7 @@
             this.PWTextBox.TabIndex = 12;
             this.PWTextBox.Text = "비밀번호를 입력해주세요.";
             this.PWTextBox.Click += new System.EventHandler(this.PWTextBox_Click);
+            this.PWTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PWTextBox_KeyDown);
             this.PWTextBox.Leave += new System.EventHandler(this.PWTextBox_Leave);
             // 
             // IDTextBox

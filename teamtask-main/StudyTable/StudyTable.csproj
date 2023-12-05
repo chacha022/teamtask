@@ -179,5 +179,17 @@
   <ItemGroup>
     <None Include="Resources\두더지_쪼꼬미.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\두더지 사진_어둠_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\숲 배경6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\숲 배경의 뚜뚜.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\어둔 숲 배경의 뚜뚜6.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

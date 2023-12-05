@@ -38,3 +38,24 @@ C:\Users\user\Downloads\teamtask-main\teamtask-main\StudyTable\obj\Debug\StudyTa
 C:\Users\user\Downloads\teamtask-main\teamtask-main\StudyTable\obj\Debug\StudyTable.csproj.GenerateResource.cache
 C:\Users\user\Downloads\teamtask-main\teamtask-main\StudyTable\obj\Debug\StudyTable.csproj.CoreCompileInputs.cache
 C:\Users\user\Downloads\teamtask-main\teamtask-main\StudyTable\obj\Debug\StudyTable.game22.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\bin\Debug\StudyTable.exe.config
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\bin\Debug\StudyTable.exe
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\bin\Debug\StudyTable.pdb
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.csproj.AssemblyReference.cache
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.game11.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.game22.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.main.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.log.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.memo.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.timer.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.calendar.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.calculator.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.Properties.Resources.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.UserControl1.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.UserControl2.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.UserControl3.resources
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.csproj.GenerateResource.cache
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.csproj.CoreCompileInputs.cache
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.exe
+C:\Users\user\바탕 화면\StudyTable\teamtask-main\StudyTable\obj\Debug\StudyTable.pdb

@@ -38,7 +38,7 @@ namespace StudyTable
             }
 
             mil++;
-            if (mil == 30)
+            if (mil > 30)
             {
                 EndGame();
             }

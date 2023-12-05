@@ -118,13 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="두더지게임" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\두더지게임.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="두더지 사진_어둠_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\두더지 사진_어둠_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="숲 배경6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\숲 배경6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="숲 배경3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\숲 배경3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="숲 배경의 뚜뚜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\숲 배경의 뚜뚜.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="두더지게임" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\두더지게임.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="두더지_쪼꼬미" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\두더지_쪼꼬미.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="어둔 숲 배경의 뚜뚜6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\어둔 숲 배경의 뚜뚜6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

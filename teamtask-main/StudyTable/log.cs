@@ -74,5 +74,13 @@ namespace StudyTable
                 PWTextBox.PasswordChar = '\0';
             }
         }
+
+        private void PWTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)                                               //PWTextBox에서 값 작성후 엔터키를 누르면 바로 로그인함
+            {
+                bt_OK();
+            }
+        }
     }
 }

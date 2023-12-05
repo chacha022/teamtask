@@ -36,10 +36,10 @@
             this.bt_Reset = new System.Windows.Forms.Button();
             this.bt_Stop = new System.Windows.Forms.Button();
             this.bt_Start = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.bt_Mole = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.bt_Mole = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label4
@@ -66,7 +66,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(663, 7);
+            this.label2.Location = new System.Drawing.Point(662, 7);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(25, 25);
             this.label2.TabIndex = 23;
@@ -76,7 +76,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(93, 6);
+            this.label1.Location = new System.Drawing.Point(93, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 25);
             this.label1.TabIndex = 22;
@@ -118,19 +118,18 @@
             this.bt_Start.UseVisualStyleBackColor = true;
             this.bt_Start.Click += new System.EventHandler(this.bt_Start_Click);
             // 
-            // label5
+            // timer1
             // 
-            this.label5.Image = global::StudyTable.Properties.Resources.숲_배경3;
-            this.label5.Location = new System.Drawing.Point(-1, -1);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(702, 362);
-            this.label5.TabIndex = 26;
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // bt_Mole
             // 
             this.bt_Mole.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bt_Mole.Image = global::StudyTable.Properties.Resources.두더지_쪼꼬미;
+            this.bt_Mole.Image = global::StudyTable.Properties.Resources.두더지_사진_어둠_;
             this.bt_Mole.Location = new System.Drawing.Point(261, 127);
             this.bt_Mole.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bt_Mole.Name = "bt_Mole";
@@ -139,13 +138,14 @@
             this.bt_Mole.UseVisualStyleBackColor = true;
             this.bt_Mole.Click += new System.EventHandler(this.bt_Mole_Click);
             // 
-            // timer1
+            // label5
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // timer2
-            // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            this.label5.Image = global::StudyTable.Properties.Resources.숲_배경6;
+            this.label5.Location = new System.Drawing.Point(-1, -1);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(702, 362);
+            this.label5.TabIndex = 26;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // game22
             // 
