@@ -40,6 +40,10 @@
             this.FontChange = new System.Windows.Forms.Button();
             this.BackgroundChange = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.naver = new System.Windows.Forms.Button();
+            this.google = new System.Windows.Forms.Button();
+            this.waffle = new System.Windows.Forms.Button();
+            this.wku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.calendar = new System.Windows.Forms.Button();
             this.imageListCalendar = new System.Windows.Forms.ImageList(this.components);
@@ -54,10 +58,6 @@
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.close = new System.Windows.Forms.Button();
-            this.naver = new System.Windows.Forms.Button();
-            this.google = new System.Windows.Forms.Button();
-            this.waffle = new System.Windows.Forms.Button();
-            this.wku = new System.Windows.Forms.Button();
             this.game1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
@@ -191,6 +191,54 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "사이트";
             // 
+            // naver
+            // 
+            this.naver.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
+            this.naver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.naver.Image = ((System.Drawing.Image)(resources.GetObject("naver.Image")));
+            this.naver.Location = new System.Drawing.Point(30, 30);
+            this.naver.Name = "naver";
+            this.naver.Size = new System.Drawing.Size(100, 100);
+            this.naver.TabIndex = 9;
+            this.naver.UseVisualStyleBackColor = true;
+            this.naver.Click += new System.EventHandler(this.naver_Click);
+            // 
+            // google
+            // 
+            this.google.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
+            this.google.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.google.Image = ((System.Drawing.Image)(resources.GetObject("google.Image")));
+            this.google.Location = new System.Drawing.Point(170, 30);
+            this.google.Name = "google";
+            this.google.Size = new System.Drawing.Size(100, 100);
+            this.google.TabIndex = 10;
+            this.google.UseVisualStyleBackColor = true;
+            this.google.Click += new System.EventHandler(this.google_Click);
+            // 
+            // waffle
+            // 
+            this.waffle.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
+            this.waffle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.waffle.Image = ((System.Drawing.Image)(resources.GetObject("waffle.Image")));
+            this.waffle.Location = new System.Drawing.Point(310, 30);
+            this.waffle.Name = "waffle";
+            this.waffle.Size = new System.Drawing.Size(100, 100);
+            this.waffle.TabIndex = 11;
+            this.waffle.UseVisualStyleBackColor = true;
+            this.waffle.Click += new System.EventHandler(this.waffle_Click);
+            // 
+            // wku
+            // 
+            this.wku.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
+            this.wku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.wku.Image = ((System.Drawing.Image)(resources.GetObject("wku.Image")));
+            this.wku.Location = new System.Drawing.Point(450, 30);
+            this.wku.Name = "wku";
+            this.wku.Size = new System.Drawing.Size(100, 100);
+            this.wku.TabIndex = 12;
+            this.wku.UseVisualStyleBackColor = true;
+            this.wku.Click += new System.EventHandler(this.wku_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -318,54 +366,6 @@
             this.close.TabIndex = 56;
             this.close.UseVisualStyleBackColor = true;
             this.close.Click += new System.EventHandler(this.close_Click);
-            // 
-            // naver
-            // 
-            this.naver.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
-            this.naver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.naver.Image = ((System.Drawing.Image)(resources.GetObject("naver.Image")));
-            this.naver.Location = new System.Drawing.Point(30, 30);
-            this.naver.Name = "naver";
-            this.naver.Size = new System.Drawing.Size(100, 100);
-            this.naver.TabIndex = 9;
-            this.naver.UseVisualStyleBackColor = true;
-            this.naver.Click += new System.EventHandler(this.naver_Click);
-            // 
-            // google
-            // 
-            this.google.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
-            this.google.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.google.Image = ((System.Drawing.Image)(resources.GetObject("google.Image")));
-            this.google.Location = new System.Drawing.Point(170, 30);
-            this.google.Name = "google";
-            this.google.Size = new System.Drawing.Size(100, 100);
-            this.google.TabIndex = 10;
-            this.google.UseVisualStyleBackColor = true;
-            this.google.Click += new System.EventHandler(this.google_Click);
-            // 
-            // waffle
-            // 
-            this.waffle.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
-            this.waffle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.waffle.Image = ((System.Drawing.Image)(resources.GetObject("waffle.Image")));
-            this.waffle.Location = new System.Drawing.Point(310, 30);
-            this.waffle.Name = "waffle";
-            this.waffle.Size = new System.Drawing.Size(100, 100);
-            this.waffle.TabIndex = 11;
-            this.waffle.UseVisualStyleBackColor = true;
-            this.waffle.Click += new System.EventHandler(this.waffle_Click);
-            // 
-            // wku
-            // 
-            this.wku.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
-            this.wku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.wku.Image = ((System.Drawing.Image)(resources.GetObject("wku.Image")));
-            this.wku.Location = new System.Drawing.Point(450, 30);
-            this.wku.Name = "wku";
-            this.wku.Size = new System.Drawing.Size(100, 100);
-            this.wku.TabIndex = 12;
-            this.wku.UseVisualStyleBackColor = true;
-            this.wku.Click += new System.EventHandler(this.wku_Click);
             // 
             // game1
             // 
