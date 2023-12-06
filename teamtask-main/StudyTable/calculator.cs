@@ -14,7 +14,7 @@ namespace StudyTable
     public partial class calculator : Form
     {
 
-        enum Operators
+        enum Operators // 사칙 연산 열거형
         {
             None,
             Add,
@@ -25,7 +25,7 @@ namespace StudyTable
             Result
         }
 
-        enum NumberBase
+        enum NumberBase // 진법 변환을 위한 열거형
         {
             Decimal,
             Binary,
@@ -33,27 +33,28 @@ namespace StudyTable
             Hexadecimal
         }
 
-        Operators currentOperator = Operators.None;
-        Boolean operatorChangeFlag = false;
-        int firstOperand = 0;
-        int secondOperand = 0;
-        double memory = 0;
-        bool clear = true;
-        NumberBase currentBase = NumberBase.Decimal;
+        Operators currentOperator = Operators.None; // 현재 연산자
+        Boolean operatorChangeFlag = false; // 연산자 변경 플래그
+        int firstOperand = 0; // 첫번째 피연산자
+        int secondOperand = 0; // 두번째 피연산자
+        double memory = 0; // 메모리
+        bool clear = true; // 화면 초기화 여부
+        NumberBase currentBase = NumberBase.Decimal; // 현재 숫자 진법
 
         public calculator()
         {
             InitializeComponent();
+            // 화면 텍스트가 변경될 때 이벤트 핸들러 연결
             Display.TextChanged += Display_TextChanged;
         }
 
         private void bt_Result_Click(object sender, EventArgs e)
         {
-            secondOperand = Int32.Parse(Display.Text);
+            secondOperand = Int32.Parse(Display.Text); // 입력 받은 문자를 숫자로 변환
             if (currentOperator == Operators.Add)
             {
-                firstOperand += secondOperand;
-                Display.Text = firstOperand.ToString();
+                firstOperand += secondOperand; // 연산 수행
+                Display.Text = firstOperand.ToString(); // 수행된 숫자를 문자로 변경하여 출력
             }
             else if (currentOperator == Operators.Subtract)
             {
@@ -93,6 +94,7 @@ namespace StudyTable
 
         private void bt_Add_Click(object sender, EventArgs e)
         {
+            // 현재 화면의 값을 첫번째 피연산자로 설정하고 덧셈 연산자로 변경
             firstOperand = Int32.Parse(Display.Text);
             currentOperator = Operators.Add;
             operatorChangeFlag = true;
@@ -128,6 +130,7 @@ namespace StudyTable
 
         private void bt_Clear_Click(object sender, EventArgs e)
         {
+            // 모든 연산자와 피연산자 초기화, 화면에 0 표시
             firstOperand = 0;
             secondOperand = 0;
             currentOperator = Operators.None;
@@ -136,11 +139,13 @@ namespace StudyTable
 
         private void bt_Backspace_Click(object sender, EventArgs e)
         {
+            // 화면에서 마지막 글자 삭제
             Display.Text = Display.Text.Substring(0, Display.Text.Length - 1);
         }
 
         private void bt_Zero_Click(object sender, EventArgs e)
         {
+            // 연산자 변경 플래그 확인 후 화면에 0 추가
             if (operatorChangeFlag == true)
             {
                 Display.Text = "";
@@ -261,41 +266,43 @@ namespace StudyTable
 
         private void bt_MC_Click(object sender, EventArgs e)
         {
-            memory = 0;
-            clear = true;
+            memory = 0; // 메모리 값을 0으로 초기화
+            clear = true; // 화면 클리어 플래그 설정
         }
 
         private void bt_MR_Click(object sender, EventArgs e)
         {
-            Display.Text = Convert.ToString(memory);
+            Display.Text = Convert.ToString(memory); // 메모리 값 화면에 표시
             clear = true;
         }
 
         private void bt_MS_Click(object sender, EventArgs e)
         {
-            memory = Convert.ToDouble(Display.Text);
+            memory = Convert.ToDouble(Display.Text); // 현재 화면의 값 메모리에 저장
             clear = true;
         }
 
         private void bt_MP_Click(object sender, EventArgs e)
         {
-            double num = Convert.ToDouble(Display.Text);
-            memory += num;
+            double num = Convert.ToDouble(Display.Text); // 현재 화면의 값
+            memory += num; // 메모리에 더하기
             clear = true;
         }
 
         private void bt_MM_Click(object sender, EventArgs e)
         {
-            double num = Convert.ToDouble(Display.Text);
-            memory -= num;
+            double num = Convert.ToDouble(Display.Text); // 현재 화면의 값
+            memory -= num; // 메모리에서 빼기
             clear = true;
         }
 
         private void Display_TextChanged(object sender, EventArgs e)
         {
+            // 숫자 진법 변환 함수 호출
             ConvertAndDisplay();
         }
 
+        // 숫자 진법 변환 및 화면 표시
         private void ConvertAndDisplay()
         {
             string inputText = Display.Text;
@@ -312,6 +319,7 @@ namespace StudyTable
                 return;
             }
 
+            // 숫자 진법에 따라 레이블 설정
             SetLabels(
                 Convert.ToString(decimalNumber, 2),
                 Convert.ToString(decimalNumber, 8),
@@ -320,6 +328,7 @@ namespace StudyTable
                 ); ;
         }
 
+        // 진법 변환 레이블 설정 함수
         private void SetLabels(string binary, string octal, string decimalValue, string hexadecimal)
         {
             Trans2.Text = binary;

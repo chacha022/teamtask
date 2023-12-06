@@ -17,31 +17,6 @@ namespace StudyTable
             InitializeComponent();
         }
 
-        private void 실행취소UToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(실행취소UToolStripMenuItem.Text);
-        }
-
-        private void 잘라내기TToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(잘라내기TToolStripMenuItem1.Text);
-        }
-
-        private void 복사CToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(복사CToolStripMenuItem1.Text);
-        }
-
-        private void 삭제DToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(삭제DToolStripMenuItem.Text);
-        }
-
-        private void 모두선택AToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(모두선택AToolStripMenuItem.Text);
-        }
-
         private void memo_Load(object sender, EventArgs e)
         {
 
@@ -56,42 +31,66 @@ namespace StudyTable
         private void 열기ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.saveFileDialog1.Filter = "텍스트 문서(*.txt)|*.txt|모든파일|*.*";
+            // 1. 사용자에게 열 파일을 선택하게 함
             openFileDialog1.ShowDialog();
+            // 1-1. 선택한 파일명을 변수에 저장함
             filename = openFileDialog1.FileName;
+            // 2. 파일의 내용을 읽음
             string Data = System.IO.File.ReadAllText(filename);
+            // 3. 화면에 표시함
             Contents.Text = Data;
         }
 
         private void 저장SToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 그렇지 않으면 다른이름으로 저장과 동일
             if (filename == "")
             {
+                // 1. 사용자에게 저장할 파일을 선택하게 함
                 this.saveFileDialog1.Filter = "텍스트 문서(*.txt)|*.txt|모든파일|*.*";
                 this.saveFileDialog1.ShowDialog();
+                // 2. 파일을 저장함
                 System.IO.File.WriteAllText(saveFileDialog1.FileName, Contents.Text);
+                // 3. 파일명을 기억함
                 filename = saveFileDialog1.FileName;
             }
             else
             {
+                // 1. 해당 파일명으로 현재 내용을 저장
+
+                // 2. 파일을 저장함
                 System.IO.File.WriteAllText(filename, Contents.Text);
             }
         }
 
         private void 다른이름으로저장AToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 1. 사용자에게 저장할 파일을 선택하게 함
             this.saveFileDialog1.Filter = "텍스트 문서(*.txt)|*.txt|모든파일|*.*";
             this.saveFileDialog1.ShowDialog();
+            // 2. 파일을 저장함
             System.IO.File.WriteAllText(saveFileDialog1.FileName, Contents.Text);
         }
 
         private void 끝내기XToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 프로그램 종료
             Close();
         }
 
         private void 자동줄바꿈WToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Contents.WordWrap = !Contents.WordWrap;
+            /* 
+            if(Contents.WordWrap == true)
+            {
+              Contents.WordWrap = false;
+             }
+            else
+            {
+              Contents.WordWrap= true;
+             } 
+             */
         }
 
         private void 글꼴FToolStripMenuItem_Click(object sender, EventArgs e)

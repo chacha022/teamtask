@@ -28,13 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.실행취소UToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.잘라내기TToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.복사CToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.삭제DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.모두선택AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.Contents = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -55,51 +48,8 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.실행취소UToolStripMenuItem,
-            this.잘라내기TToolStripMenuItem1,
-            this.복사CToolStripMenuItem1,
-            this.삭제DToolStripMenuItem,
-            this.모두선택AToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(139, 114);
-            // 
-            // 실행취소UToolStripMenuItem
-            // 
-            this.실행취소UToolStripMenuItem.Name = "실행취소UToolStripMenuItem";
-            this.실행취소UToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.실행취소UToolStripMenuItem.Text = "실행취소(U)";
-            // 
-            // 잘라내기TToolStripMenuItem1
-            // 
-            this.잘라내기TToolStripMenuItem1.Name = "잘라내기TToolStripMenuItem1";
-            this.잘라내기TToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
-            this.잘라내기TToolStripMenuItem1.Text = "잘라내기(T)";
-            // 
-            // 복사CToolStripMenuItem1
-            // 
-            this.복사CToolStripMenuItem1.Name = "복사CToolStripMenuItem1";
-            this.복사CToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
-            this.복사CToolStripMenuItem1.Text = "복사(C)";
-            // 
-            // 삭제DToolStripMenuItem
-            // 
-            this.삭제DToolStripMenuItem.Name = "삭제DToolStripMenuItem";
-            this.삭제DToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.삭제DToolStripMenuItem.Text = "삭제(D)";
-            // 
-            // 모두선택AToolStripMenuItem
-            // 
-            this.모두선택AToolStripMenuItem.Name = "모두선택AToolStripMenuItem";
-            this.모두선택AToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.모두선택AToolStripMenuItem.Text = "모두선택(A)";
             // 
             // statusStrip1
             // 
@@ -208,14 +158,14 @@
             // 자동줄바꿈WToolStripMenuItem
             // 
             this.자동줄바꿈WToolStripMenuItem.Name = "자동줄바꿈WToolStripMenuItem";
-            this.자동줄바꿈WToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.자동줄바꿈WToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.자동줄바꿈WToolStripMenuItem.Text = "자동 줄바꿈(&W)";
             this.자동줄바꿈WToolStripMenuItem.Click += new System.EventHandler(this.자동줄바꿈WToolStripMenuItem_Click);
             // 
             // 글꼴FToolStripMenuItem
             // 
             this.글꼴FToolStripMenuItem.Name = "글꼴FToolStripMenuItem";
-            this.글꼴FToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.글꼴FToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.글꼴FToolStripMenuItem.Text = "글꼴(&F)";
             this.글꼴FToolStripMenuItem.Click += new System.EventHandler(this.글꼴FToolStripMenuItem_Click);
             // 
@@ -233,7 +183,7 @@
             this.상태표시줄SToolStripMenuItem.CheckOnClick = true;
             this.상태표시줄SToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.상태표시줄SToolStripMenuItem.Name = "상태표시줄SToolStripMenuItem";
-            this.상태표시줄SToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.상태표시줄SToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.상태표시줄SToolStripMenuItem.Text = "상태 표시줄(&S)";
             this.상태표시줄SToolStripMenuItem.Click += new System.EventHandler(this.상태표시줄SToolStripMenuItem_Click);
             // 
@@ -248,7 +198,7 @@
             // 메모장정보AToolStripMenuItem
             // 
             this.메모장정보AToolStripMenuItem.Name = "메모장정보AToolStripMenuItem";
-            this.메모장정보AToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.메모장정보AToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.메모장정보AToolStripMenuItem.Text = "메모장 정보(&A)";
             this.메모장정보AToolStripMenuItem.Click += new System.EventHandler(this.메모장정보AToolStripMenuItem_Click);
             // 
@@ -268,7 +218,6 @@
             this.Name = "memo";
             this.Text = "memo 메모장";
             this.Load += new System.EventHandler(this.memo_Load);
-            this.contextMenuStrip1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -277,12 +226,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem 실행취소UToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 잘라내기TToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem 복사CToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem 삭제DToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 모두선택AToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.TextBox Contents;
         private System.Windows.Forms.MenuStrip menuStrip1;
